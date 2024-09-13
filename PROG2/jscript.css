@@ -1,0 +1,23 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#myBtn{
+    cursor: pointer;
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+
+}
+.myBtnDiv { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.Labels{
+    font-size: 3em;
+}
+
+

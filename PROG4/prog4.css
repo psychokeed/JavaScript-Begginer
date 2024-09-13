@@ -1,0 +1,46 @@
+body{
+    background: hsl(0, 1%, 32%);
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color: red;
+}
+form{
+    background-color: aliceblue;
+    text-align: center;
+    max-width: 30%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px aliceblue;
+}
+#textbox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+button{
+    margin-top: 15px;
+    background-color: red;
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .6s;
+}
+button:hover{
+    background-color: rgb(3, 199, 238);
+}
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
+}
